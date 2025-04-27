@@ -34,7 +34,10 @@ The goal was to generate advanced visual designs to uncover non-trivial insights
 
 ---
 
-## Tools and Libraries
+## Tools and Libraries / Dependencies
+Anyone trying to clone this repository perform 
+`pip install -r requirements.txt`
+The following were used to generate the visuals 
 - `Pandas`
 - `Seaborn`
 - `Matplotlib`
