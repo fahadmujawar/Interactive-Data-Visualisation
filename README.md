@@ -63,6 +63,17 @@ The goal was to generate advanced visual designs to uncover non-trivial insights
 4. (Optional) Export high-resolution PNGs/ html files by uncommenting the provided save commands.
 
 ---
+
+## Viewing the Outputs 
+- Navigate to the visualisations/ folder.
+- For HTML Files (Interactive Charts):
+- Download the .html files to your local machine.
+- Open them using any web browser (e.g., Chrome, Firefox, Edge).
+- The charts are fully interactive (hover, zoom, explore).
+- For PNG File (Static Chart):
+- The static heatmap is available as a .png file inside the same folder
+- The `observations.txt` contains the insights obtained from the graphs present in outputs folder 
+---
 ## Notes
 - Bar charts, pie charts, line charts, and bubble charts were avoided as per coursework requirements.
 
