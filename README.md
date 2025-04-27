@@ -19,7 +19,7 @@ The goal was to generate advanced visual designs to uncover non-trivial insights
 ## Project Structure
 - **Dataset Used**: `Results_21Mar2022.csv` (upload manually when running)
 - **Environment**: Google Colab
-- **Code**: Jupyter Notebook (`.ipynb`)
+- **Code**: Jupyter Notebook (`.ipynb`) please open `Data_Visulaisation.ipynb` in google colab or click on link here https://colab.research.google.com/drive/1CfekAZRX-vsvNaJPPBKgNWJGIjqThW04#scrollTo=vin2NgYzzgfG
 - **Outputs Folder**: `visualisations/`
   - Contains interactive charts (`.html` files)
   - Contains high-resolution static image (`.png` file)
@@ -38,11 +38,12 @@ The goal was to generate advanced visual designs to uncover non-trivial insights
 Anyone trying to clone this repository perform 
 `pip install -r requirements.txt`
 The following were used to generate the visuals 
-- `Pandas`
-- `Seaborn`
-- `Matplotlib`
-- `Plotly`
-- `Scikit-learn`
+- Pandas Version: 2.2.2
+- Seaborn Version: 0.13.2
+- Matplotlib Version: 3.10.0
+- Numpy Version: 2.0.2
+- Scikit-learn Version: 1.6.1
+- Plotly Version: 5.24.1
 
 ---
 
@@ -54,16 +55,22 @@ The following were used to generate the visuals
 
 ---
 
+ ## Observations
+- Meat-heavy diets (even when merged) show consistently higher environmental costs across all indicators (red zone in heatmap and full radial coverage in radar).
+- Fish-based diets, while lower in GHGs, show higher water use and water scarcity footprint, which is a non-obvious insight from the radar chart.
+- The sunburst chart reveals that females dominate vegetarian/vegan groups, particularly ages 20-39, indicating demographic shifts in sustainable eating (seen visually in the expanded purple and blue sectors).
+--- 
 ## Running the Code
-1. Upload `Results_21Mar2022.csv` to your Colab session.
-2. Update the path if necessary:
+1. Please open `Data_Visulaisation.ipynb` in google colab or click on link here https://colab.research.google.com/drive/1CfekAZRX-vsvNaJPPBKgNWJGIjqThW04#scrollTo=vin2NgYzzgfG
+2. Upload `Results_21Mar2022.csv` to your Colab session.
+3. Update the path if necessary:
    ```python
    df = pd.read_csv('/content/Results_21Mar2022.csv')
 
    ```
-3. Run all cells to generate visualizations.
+4. Run all cells to generate visualizations.
 
-4. (Optional) Export high-resolution PNGs/ html files by uncommenting the provided save commands.
+5. (Optional) Export high-resolution PNGs/ html files by uncommenting the provided save commands.
 
 ---
 
