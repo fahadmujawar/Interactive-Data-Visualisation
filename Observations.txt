@@ -1,0 +1,5 @@
+ ## Observations
+- Meat-heavy diets (even when merged) show consistently higher environmental costs across all indicators (red zone in heatmap and full radial coverage in radar).
+- Fish-based diets, while lower in GHGs, show higher water use and water scarcity footprint, which is a non-obvious insight from the radar chart.
+- The sunburst chart reveals that females dominate vegetarian/vegan groups, particularly ages 20-39, indicating demographic shifts in sustainable eating (seen visually in the expanded purple and blue sectors).
+
