@@ -19,7 +19,7 @@ The goal was to generate advanced visual designs to uncover non-trivial insights
 ## Project Structure
 - **Dataset Used**: `Results_21Mar2022.csv` (upload manually when running)
 - **Environment**: Google Colab
-- **Code**: Jupyter Notebook (`.ipynb`) please open `Data_Visulaisation.ipynb` in google colab or click on link here https://colab.research.google.com/drive/1CfekAZRX-vsvNaJPPBKgNWJGIjqThW04#scrollTo=vin2NgYzzgfG
+- **Code**: Jupyter Notebook (`.ipynb`) please open `Data_Visulaisation.ipynb` in google colab or click on link here (https://colab.research.google.com/drive/1CfekAZRX-vsvNaJPPBKgNWJGIjqThW04?usp=sharing)
 - **Outputs Folder**: `visualisations/`
   - Contains interactive charts (`.html` files)
   - Contains high-resolution static image (`.png` file)
