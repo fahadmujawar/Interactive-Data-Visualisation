@@ -61,7 +61,7 @@ The following were used to generate the visuals
 - The sunburst chart reveals that females dominate vegetarian/vegan groups, particularly ages 20-39, indicating demographic shifts in sustainable eating (seen visually in the expanded purple and blue sectors).
 --- 
 ## Running the Code
-1. Please open `Data_Visulaisation.ipynb` in google colab or click on link here https://colab.research.google.com/drive/1CfekAZRX-vsvNaJPPBKgNWJGIjqThW04#scrollTo=vin2NgYzzgfG
+1. Please open `Data_Visulaisation.ipynb` in google colab or click on link here (https://colab.research.google.com/drive/1CfekAZRX-vsvNaJPPBKgNWJGIjqThW04?usp=sharing)
 2. Upload `Results_21Mar2022.csv` to your Colab session.
 3. Update the path if necessary:
    ```python
